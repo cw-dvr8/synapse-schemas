@@ -1,0 +1,7 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "Terminal Differentiation Point",
+  "$id": "cmolitor.test-annotations.terminalDifferentiationPoint",
+  "type": "string",
+  "description": "Ther terminal differentiation point (TD) of a cell in days."
+}

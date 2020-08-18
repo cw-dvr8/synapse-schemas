@@ -1,0 +1,7 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "Specimen ID",
+  "$id": "cmolitor.test-annotations.specimenID",
+  "type": "string",
+  "description": "Identifying string linked to a particular sample or specimen"
+}

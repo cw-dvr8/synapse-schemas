@@ -1,0 +1,155 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id":"cmolitor.test-assayValidation.assay",
+  "description": "Base assay validation keys shared by all assays.",
+  "allOf": [
+    {
+      "$ref": "org.sagebionetworks-repo.model.FileEntity"
+    }
+  ],
+  "properties": {
+    "analysisType": {
+      "$ref": "cmolitor.test-annotations.analysisType"
+    },
+    "BrodmannArea": {
+      "$ref": "cmolitor.test-annotations.BrodmannArea"
+    },
+    "cellType": {
+      "$ref": "cmolitor.test-annotations.cellType"
+    },
+    "consortium": {
+      "type": "string",
+      "description": "The name of the consortium",
+      "enum": [
+        "PEC"
+      ]
+    },
+    "dataSubtype": {
+      "$ref": "cmolitor.test-annotations.dataSubtype"
+    },
+    "dataType": {
+      "$ref": "cmolitor.test-annotations.dataType"
+    },
+    "fileFormat": {
+      "$ref": "cmolitor.test-annotations.fileFormat"
+    },
+    "grant": {
+      "type": "string",
+      "description": "Grant number the data is being submitted for.",
+      "enum": [
+        "R01MH109677",
+        "R01MH109715",
+        "R01MH110472",
+        "R01MH110905",
+        "R01MH110920",
+        "R01MH110921",
+        "R01MH110926",
+        "R01MH110927",
+        "R01MH110928",
+        "R01MH111721",
+        "R01MH112751",
+        "R01MH117291",
+        "R01MH117292",
+        "R01MH117293",
+        "R21MH105853",
+        "R56MH114899",
+        "R56MH114901",
+        "R56MH114911",
+        "U01DA048279",
+        "U01MH103339",
+        "U01MH103340",
+        "U01MH116438",
+        "U01MH116441",
+        "U01MH116442",
+        "U01MH116487",
+        "U01MH116488",
+        "U01MH116489",
+        "U01MH116529",
+        "U01MH119509"
+      ]
+    },
+    "individualID": {
+      "$ref": "cmolitor.test-annotations.individualID"
+    },
+    "isMultiIndividual": {
+      "$ref": "cmolitor.test-annotations.isMultiIndividual"
+    },
+    "isMultiSpecimen": {
+      "$ref": "cmolitor.test-annotations.isMultiSpecimen"
+    },
+    "metadataType": {
+      "$ref": "cmolitor.test-annotations.metadataType"
+    },
+    "nucleicAcidSource": {
+      "$ref": "cmolitor.test-annotations.nucleicAcidSource"
+    },
+    "organ": {
+      "$ref": "cmolitor.test-annotations.organ"
+    },
+    "organRIN": {
+      "$ref": "cmolitor.test-annotations.organRIN"
+    },
+    "organWeight": {
+      "$ref": "cmolitor.test-annotations.organWeight"
+    },
+    "passage": {
+      "$ref": "cmolitor.test-annotations.passage"
+    },
+    "platform": {
+      "$ref": "cmolitor.test-annotations.platform"
+    },
+    "referenceSet": {
+      "$ref": "cmolitor.test-annotations.referenceSet"
+    },
+    "resourceType": {
+      "$ref": "cmolitor.test-annotations.resourceType"
+    },
+    "specimenID": {
+      "$ref": "cmolitor.test-annotations.specimenID"
+    },
+    "study": {
+      "type": "string",
+      "description": "PsychENCODE study",
+      "enum": [
+        "3Dchromatin",
+        "ASD-MSSM-IncRNA",
+        "BipSeq",
+        "BrainGVEX",
+        "BrainTF",
+        "BrainVar",
+        "CMC-PEC",
+        "CNON",
+        "DopaModel",
+        "EpiDiff",
+        "EpiGABA",
+        "EpiMap",
+        "HumanFC",
+        "IncRNA Pilot",
+        "iPSC",
+        "iPSC-ASD",
+        "iPSC-HiC",
+        "iPSCNeuroDiff",
+        "IsoHuB",
+        "LIBD-WGBS",
+        "MDDseq",
+        "MouseHAL",
+        "NeuEnhancer",
+        "NeuREs",
+        "NHP-Chimpanzee",
+        "NHP-Macaque",
+        "SCZ-IncRNA",
+        "SingleCellRNAseq",
+        "TS-RNAseq",
+        "UCLA-ASD",
+        "WGBS Pilot",
+        "Yale-ASD"
+      ]
+    },
+    "terminalDifferentiationPoint": {
+      "$ref": "cmolitor.test-annotations.terminalDifferentiationPoint"
+    },
+    "tissue": {
+      "$ref": "cmolitor.test-annotations.tissue"
+    }
+  }
+}

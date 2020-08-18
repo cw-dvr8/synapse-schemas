@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "Resource Type",
+  "$id": "cmolitor.test-annotations.resourceType",
+  "type": "string",
+  "description": "The type of resource being stored and annotated",
+  "enum": [
+    "analysis",
+    "curatedData",
+    "experimentalData",
+    "report",
+    "tool"
+  ]
+}

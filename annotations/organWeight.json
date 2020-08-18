@@ -1,0 +1,7 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "Organ Weight",
+  "$id": "cmolitor.test-annotations.organWeight",
+  "type": "number",
+  "description": "Post-mortem weight of organ (in grams)"
+}

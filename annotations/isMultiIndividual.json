@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "Is Multi-Individual",
+  "$id": "cmolitor.test-annotations.isMultiIndividual",
+  "type": "string",
+  "description": "Indicates whether or not a file has data for multiple individuals",
+  "enum": [
+    "FALSE",
+    "False",
+    "false",
+    "TRUE",
+    "True",
+    "true"
+  ]
+}

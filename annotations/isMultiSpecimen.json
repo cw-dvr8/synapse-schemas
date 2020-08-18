@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "Is Multi-Specimen",
+  "$id": "cmolitor.test-annotations.isMultiSpecimen",
+  "type": "string",
+  "description": "Indicates whether or not a file has data for multiple specimens",
+  "enum": [
+    "FALSE",
+    "False",
+    "false",
+    "TRUE",
+    "True",
+    "true"
+  ]
+}

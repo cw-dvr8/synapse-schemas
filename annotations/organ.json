@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "Organ",
+  "$id": "cmolitor.test-annotations.organ",
+  "type": "string",
+  "description": "A unique macroscopic (gross) anatomic structure that performs specific functions. It is compose of various tissues.",
+  "enum": [
+    "blood",
+    "bone marrow",
+    "brain",
+    "breast",
+    "Bursa Of Fabricius",
+    "cerebrospinal fluid",
+    "colon",
+    "kidney",
+    "lung",
+    "lymph node",
+    "mammary gland",
+    "nerves",
+    "nose",
+    "ovary",
+    "pancreas",
+    "prostate",
+    "skin",
+    "spleen"
+  ]
+}

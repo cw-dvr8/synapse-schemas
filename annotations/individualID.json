@@ -1,0 +1,7 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "Individual ID",
+  "$id": "cmolitor.test-annotations.individualID",
+  "type": "string",
+  "description": "Identifying string linked to the individual or animal being studied"
+}

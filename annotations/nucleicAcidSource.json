@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "Nucleic Acid Source",
+  "$id": "cmolitor.test-annotations.nucleicAcidSource",
+  "type": "string",
+  "description": "The source of nucleic acid for the specimen.",
+  "enum": [
+    "bulk cell",
+    "bulk nuclei",
+    "mitochondria",
+    "single cell",
+    "single nucleus",
+    "sorted cells",
+    "sorted nuclei"
+  ]
+}

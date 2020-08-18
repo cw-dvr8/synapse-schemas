@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "Reference Set",
+  "$id": "cmolitor.test-annotations.referenceSet",
+  "type": "string",
+  "description": "A set of references (e.g. canonical assembled contigs) which defines a common coordinate space for comparing reference-aligned experimental data",
+  "enum": [
+    "GRCh38",
+    "GRCh37",
+    "HRC",
+    "MMUL1.0"
+  ]
+}

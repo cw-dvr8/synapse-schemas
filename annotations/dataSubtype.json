@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "dataSubtype",
+  "$id": "cmolitor.test-annotations.dataSubtype",
+  "type": "string",
+  "description": "Further qualification of dataType, which may be used to indicate the state of processing of the data, aggregation of the data, or presence of metadata.",
+  "enum": [
+    "normalized",
+    "dataMatrix",
+    "raw",
+    "processed",
+    "metadata"
+  ]
+}

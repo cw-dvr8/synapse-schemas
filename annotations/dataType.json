@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "dataType",
+  "$id": "cmolitor.test-annotations.dataType",
+  "type": "string",
+  "description": "Types of input/output data in bioinformatics pipelines",
+  "enum": [
+    "behavior process",
+    "cellularPhysiology",
+    "chromatinActivity",
+    "clinical",
+    "drugCombinationScreen",
+    "drugScreen",
+    "electrophysiology",
+    "geneExpression",
+    "genomicVariants",
+    "image",
+    "immunoassay",
+    "isoformExpression",
+    "kinomics",
+    "metabolomics",
+    "network",
+    "Pharmacokinetic Study",
+    "proteomics",
+    "surveyData",
+    "Volume",
+    "Weight"
+  ]
+}
