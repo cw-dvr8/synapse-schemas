@@ -1,0 +1,7 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "Valid Barcode Reads",
+  "$id": "cmolitor.test-annotations.validBarcodeReads",
+  "type": "integer",
+  "description": "QC metric"
+}

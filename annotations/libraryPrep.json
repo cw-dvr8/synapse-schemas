@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "Library Prep",
+  "$id": "cmolitor.test-annotations.libraryPrep",
+  "type": "string",
+  "description": "The general strategy by which the library was prepared.",
+  "enum": [
+    "DNALibraryConstruction",
+    "lncRNAenrichment",
+    "miRNAenrichment",
+    "PCRfree",
+    "polyAselection",
+    "rRNAdepletion",
+    "STARRSeq"
+  ]
+}

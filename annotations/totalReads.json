@@ -1,0 +1,8 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "Total Reads",
+  "$id": "cmolitor.test-annotations.totalReads",
+  "type": "number",
+  "exclusiveMinimum": 0,
+  "description": "Number of times a cell culture has been subcultured"
+}

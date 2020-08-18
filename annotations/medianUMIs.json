@@ -1,0 +1,7 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "Median UMIs",
+  "$id": "cmolitor.test-annotations.medianUMIs",
+  "type": "integer",
+  "description": "QC metric"
+}

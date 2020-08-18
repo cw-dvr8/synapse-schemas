@@ -1,0 +1,7 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "Read Length",
+  "$id": "cmolitor.test-annotations.readLength",
+  "type": "string",
+  "description": "The length of the read"
+}

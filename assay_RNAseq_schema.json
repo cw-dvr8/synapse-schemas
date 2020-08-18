@@ -7,93 +7,50 @@
       "$reg": "cmolitor.text-assayValidation.assay"
   ],
   "properties": {
-    "libraryID": {
-      "$ref": "https://sage-bionetworks.github.io/sysbioDCCjsonschemas/releases/v0.0.4-dev/reference_definitions_schemas/new_schema_refs.json#/definitions/libraryID"
-    },
-    "assay": {
-      "$ref": "https://sage-bionetworks.github.io/sysbioDCCjsonschemas/releases/v0.0.4-dev/current_annotations_schemas/experimentalData.json#/definitions/assay"
-    },
-    "rnaBatch": {
-      "$ref": "https://sage-bionetworks.github.io/sysbioDCCjsonschemas/releases/v0.0.4-dev/reference_definitions_schemas/new_schema_refs.json#/definitions/rnaBatch"
+    "isStranded": {
+      "$ref": "cmolitor.test-annotations.isStranded"
     },
     "libraryBatch": {
-      "$ref": "https://sage-bionetworks.github.io/sysbioDCCjsonschemas/releases/v0.0.4-dev/reference_definitions_schemas/new_schema_refs.json#/definitions/libraryBatch"
+      "$ref": "cmolitor.test-annotations.libraryBatch"
     },
-    "sequencingBatch": {
-      "$ref": "https://sage-bionetworks.github.io/sysbioDCCjsonschemas/releases/v0.0.4-dev/reference_definitions_schemas/new_schema_refs.json#/definitions/sequencingBatch"
+    "libraryID": {
+      "$ref": "cmolitor.test-annotations.libraryID"
     },
     "libraryPrep": {
-      "$ref": "https://sage-bionetworks.github.io/sysbioDCCjsonschemas/releases/v0.0.4-dev/current_annotations_schemas/ngs.json#/definitions/libraryPrep"
+      "$ref": "cmolitor.test-annotations.libraryPrep"
     },
     "libraryPreparationMethod": {
-      "$ref": "https://sage-bionetworks.github.io/sysbioDCCjsonschemas/releases/v0.0.4-dev/current_annotations_schemas/ngs.json#/definitions/libraryPreparationMethod"
-    },
-    "isStranded": {
-      "$ref": "https://sage-bionetworks.github.io/sysbioDCCjsonschemas/releases/v0.0.4-dev/current_annotations_schemas/ngs.json#/definitions/isStranded"
-    },
-    "readStrandOrigin": {
-      "$ref": "https://sage-bionetworks.github.io/sysbioDCCjsonschemas/releases/v0.0.4-dev/current_annotations_schemas/ngs.json#/definitions/readStrandOrigin"
-    },
-    "readLength": {
-      "$ref": "https://sage-bionetworks.github.io/sysbioDCCjsonschemas/releases/v0.0.4-dev/current_annotations_schemas/ngs.json#/definitions/readLength"
-    },
-    "runType": {
-      "$ref": "https://sage-bionetworks.github.io/sysbioDCCjsonschemas/releases/v0.0.4-dev/current_annotations_schemas/ngs.json#/definitions/runType"
-    },
-    "totalReads": {
-      "$ref": "https://sage-bionetworks.github.io/sysbioDCCjsonschemas/releases/v0.0.4-dev/reference_definitions_schemas/new_schema_refs.json#/definitions/totalReads"
-    },
-    "validBarcodeReads": {
-      "$ref": "https://sage-bionetworks.github.io/sysbioDCCjsonschemas/releases/v0.0.4-dev/reference_definitions_schemas/new_schema_refs.json#/definitions/validBarcodeReads"
-    },
-    "numberCells": {
-      "$ref": "https://sage-bionetworks.github.io/sysbioDCCjsonschemas/releases/v0.0.4-dev/reference_definitions_schemas/new_schema_refs.json#/definitions/numberCells"
+      "$ref": "cmolitor.test-annotations.libraryPreparationMethod"
     },
     "medianGenes": {
-      "$ref": "https://sage-bionetworks.github.io/sysbioDCCjsonschemas/releases/v0.0.4-dev/reference_definitions_schemas/new_schema_refs.json#/definitions/medianGenes"
+      "$ref": "cmolitor.test-annotations.medianGenes"
     },
     "medianUMIs": {
-      "$ref": "https://sage-bionetworks.github.io/sysbioDCCjsonschemas/releases/v0.0.4-dev/reference_definitions_schemas/new_schema_refs.json#/definitions/medianUMIs"
+      "$ref": "cmolitor.test-annotations.medianUMIs"
+    },
+    "numberCells": {
+      "$ref": "cmolitor.test-annotations.numberCells"
+    },
+    "readLength": {
+      "$ref": "cmolitor.test-annotations.readLength"
+    },
+    "readStrandOrigin": {
+      "$ref": "cmolitor.test-annotations.readStrandOrigin"
+    },
+    "rnaBatch": {
+      "$ref": "cmolitor.test-annotations.rnaBatch"
+    },
+    "runType": {
+      "$ref": "cmolitor.test-annotations.runType"
+    },
+    "sequencingBatch": {
+      "$ref": "cmolitor.test-annotations.sequencingBatch"
+    },
+    "totalReads": {
+      "$ref": "cmolitor.test-annotations.totalReads"
+    },
+    "validBarcodeReads": {
+      "$ref": "cmolitor.test-annotations.validBarcodeReads"
     }
-  },
-  "required": [
-    "specimenID",
-    "libraryID",
-    "assay",
-    "platform",
-    "rnaBatch",
-    "libraryBatch",
-    "sequencingBatch", 
-    "libraryPrep",
-    "libraryPreparationMethod",
-    "isStranded",
-    "readStrandOrigin",
-    "readLength",
-    "runType",
-    "totalReads",
-    "validBarcodeReads",
-    "numberCells",
-    "medianUMIs"
-  ],
-  "allOf": [
-    {
-      "if": {
-        "allOf": [
-          {
-            "properties": {
-              "assay": {
-                "const": "rnaSeq"
-              },
-              "platform": {
-                "const": "10x"
-              }
-            }
-          }
-        ]
-      },
-      "then": {
-        "required": ["medianGenes"]
-      }
-    }
-  ]
+  }
 }

@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "Is Stranded",
+  "$id": "cmolitor.test-annotations.isStranded",
+  "type": "string",
+  "description": "Indicates whether or not the library is stranded",
+  "enum": [
+    "FALSE",
+    "False",
+    "false",
+    "TRUE",
+    "True",
+    "true"
+  ]
+}

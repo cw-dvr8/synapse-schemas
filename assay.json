@@ -11,6 +11,9 @@
     "analysisType": {
       "$ref": "cmolitor.test-annotations.analysisType"
     },
+    "assay": {
+      "$ref": "cmolitor.test-annotations.assay"
+    },
     "BrodmannArea": {
       "$ref": "cmolitor.test-annotations.BrodmannArea"
     },
@@ -20,9 +23,7 @@
     "consortium": {
       "type": "string",
       "description": "The name of the consortium",
-      "enum": [
-        "PEC"
-      ]
+      "const": "PEC"
     },
     "dataSubtype": {
       "$ref": "cmolitor.test-annotations.dataSubtype"
