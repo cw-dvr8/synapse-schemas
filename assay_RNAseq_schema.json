@@ -4,7 +4,7 @@
   "$id":"cmolitor.test-assayValidation.rnaSeq",
   "description": "Validates PsychENCODE RNASeq assay metadata",
   "allOf": [
-      "$reg": "cmolitor.text-assayValidation.assay"
+      "$reg": "cmolitor.text-assayValidation.base_assay"
   ],
   "properties": {
     "isStranded": {
