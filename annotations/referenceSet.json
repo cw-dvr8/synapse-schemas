@@ -5,8 +5,8 @@
   "type": "string",
   "description": "A set of references (e.g. canonical assembled contigs) which defines a common coordinate space for comparing reference-aligned experimental data",
   "enum": [
-    "GRCh38",
     "GRCh37",
+    "GRCh38",
     "HRC",
     "MMUL1.0"
   ]
