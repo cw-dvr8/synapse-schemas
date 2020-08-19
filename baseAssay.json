@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id":"cmolitor.test-assayValidation.base_assay",
+  "$id":"cmolitor.test-assayValidation.baseAssay",
   "description": "Base assay validation keys shared by all assays.",
   "allOf": [
     {
