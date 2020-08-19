@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "rnaSeq Assay Validation Schema",
-  "$id":"cmolitor.test-assayValidation.rnaSeq",
+  "$id":"cmolitor.test-assayValidation.assay_rnaSeq",
   "description": "Validates PsychENCODE RNASeq assay metadata",
   "allOf": [
       "$reg": "cmolitor.test-assayValidation.base_assay"
