@@ -3,5 +3,5 @@
   "title": "Terminal Differentiation Point",
   "$id": "cmolitor.test-annotations.terminalDifferentiationPoint",
   "type": "string",
-  "description": "Ther terminal differentiation point (TD) of a cell in days."
+  "description": "The terminal differentiation point (TD) of a cell in days."
 }
