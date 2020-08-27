@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PsychENCODE Portal High Value Keys Schema",
+  "$id":"cmolitor.test-PECportal.portalHighValueKeys",
+  "description": "Validates high value keys needed for the PsychENCODE portal",
+  "properties": {
+    "assay": {
+      "$ref": "cmolitor.test-annotations.assay"
+    },
+    "cellType": {
+      "$ref": "cmolitor.test-annotations.cellType"
+    },
+    "dataSubtype": {
+      "$ref": "cmolitor.test-annotations.dataSubtype"
+    },
+    "dataType": {
+      "$ref": "cmolitor.test-annotations.dataType"
+    },
+    "fileFormat": {
+      "$ref": "cmolitor.test-annotations.fileFormat"
+    },
+    "nucleicAcidSource": {
+      "$ref": "cmolitor.test-annotations.nucleicAcidSource"
+    },
+    "referenceSet": {
+      "$ref": "cmolitor.test-annotations.referenceSet"
+    },
+    "species": {
+      "$ref": "cmolitor.test-annotations.species"
+    },
+    "study": {
+      "type": "string",
+      "description": "PsychENCODE study",
+      "enum": [
+        "3Dchromatin",
+        "ASD-MSSM-IncRNA",
+        "BipSeq",
+        "BrainGVEX",
+        "BrainTF",
+        "BrainVar",
+        "CMC",
+        "CNON",
+	"DevBrain-snRNAseq",
+        "DopaModel",
+        "EpiDiff",
+        "EpiGABA",
+        "EpiMap",
+        "HumanFC",
+        "IncRNA Pilot",
+        "iPSC",
+        "iPSC-ASD",
+        "iPSC-HiC",
+        "iPSCNeuroDiff",
+        "IsoHuB",
+        "LIBD-WGBS",
+        "MDDseq",
+        "MouseHAL",
+        "NeuEnhancer",
+        "NeuREs",
+        "NHP-Chimpanzee",
+        "NHP-Macaque",
+	"referenceBrain",
+        "SCZ-IncRNA",
+        "SingleCellRNAseq",
+        "TS-RNAseq",
+        "UCLA-ASD",
+        "WGBS Pilot",
+        "Yale-ASD"
+      ]
+    },
+    "tissue": {
+      "$ref": "cmolitor.test-annotations.tissue"
+    }
+  }
+}
