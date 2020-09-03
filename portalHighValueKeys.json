@@ -33,7 +33,7 @@
       "description": "PsychENCODE study",
       "enum": [
         "3Dchromatin",
-        "ASD-MSSM-lncRNA",
+        "ASD-lncRNA",
         "BipSeq",
         "BrainGVEX",
         "BrainTF",
