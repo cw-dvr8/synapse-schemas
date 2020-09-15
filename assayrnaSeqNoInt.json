@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "rnaSeq Assay Validation Schema",
+  "$id":"cmolitor.test-assayValidation.assayrnaSeqNoInt",
+  "description": "Validates PsychENCODE RNASeq assay metadata",
+  "allOf": [
+    {
+      "$ref": "cmolitor.test-assayValidation.baseAssayNoInt"
+    }
+  ],
+  "properties": {
+    "isStranded": {
+      "$ref": "cmolitor.test-annotations.isStranded"
+    },
+    "libraryBatch": {
+      "$ref": "cmolitor.test-annotations.libraryBatch"
+    },
+    "libraryID": {
+      "$ref": "cmolitor.test-annotations.libraryID"
+    },
+    "libraryPrep": {
+      "$ref": "cmolitor.test-annotations.libraryPrep"
+    },
+    "libraryPreparationMethod": {
+      "$ref": "cmolitor.test-annotations.libraryPreparationMethod"
+    },
+    "readLength": {
+      "$ref": "cmolitor.test-annotations.readLength"
+    },
+    "readStrandOrigin": {
+      "$ref": "cmolitor.test-annotations.readStrandOrigin"
+    },
+    "rnaBatch": {
+      "$ref": "cmolitor.test-annotations.rnaBatch"
+    },
+    "runType": {
+      "$ref": "cmolitor.test-annotations.runType"
+    },
+    "sequencingBatch": {
+      "$ref": "cmolitor.test-annotations.sequencingBatch"
+    },
+    "totalReads": {
+      "$ref": "cmolitor.test-annotations.totalReads"
+    }
+  }
+}
