@@ -1,0 +1,86 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id":"cmolitor.test-assayValidation.baseAssayNoInt",
+  "description": "Base assay validation keys shared by all assays.",
+  "allOf": [
+    {
+      "$ref": "org.sagebionetworks-repo.model.FileEntity"
+    }
+  ],
+  "properties": {
+    "analysisType": {
+      "$ref": "cmolitor.test-annotations.analysisType"
+    },
+    "assay": {
+      "$ref": "cmolitor.test-annotations.assay"
+    },
+    "BrodmannArea": {
+      "$ref": "cmolitor.test-annotations.BrodmannArea"
+    },
+    "cellType": {
+      "$ref": "cmolitor.test-annotations.cellType"
+    },
+    "consortium": {
+      "type": "string",
+      "description": "The name of the consortium",
+      "const": "PEC"
+    },
+    "dataSubtype": {
+      "$ref": "cmolitor.test-annotations.dataSubtype"
+    },
+    "dataType": {
+      "$ref": "cmolitor.test-annotations.dataType"
+    },
+    "fileFormat": {
+      "$ref": "cmolitor.test-annotations.fileFormat"
+    },
+    "grant": {
+      "$ref": "cmolitor.test-annotations.grant"
+    },
+    "individualID": {
+      "$ref": "cmolitor.test-annotations.individualID"
+    },
+    "isMultiIndividual": {
+      "$ref": "cmolitor.test-annotations.isMultiIndividual"
+    },
+    "isMultiSpecimen": {
+      "$ref": "cmolitor.test-annotations.isMultiSpecimen"
+    },
+    "metadataType": {
+      "$ref": "cmolitor.test-annotations.metadataType"
+    },
+    "nucleicAcidSource": {
+      "$ref": "cmolitor.test-annotations.nucleicAcidSource"
+    },
+    "organ": {
+      "$ref": "cmolitor.test-annotations.organ"
+    },
+    "organRIN": {
+      "$ref": "cmolitor.test-annotations.organRIN"
+    },
+    "organWeight": {
+      "$ref": "cmolitor.test-annotations.organWeight"
+    },
+    "platform": {
+      "$ref": "cmolitor.test-annotations.platform"
+    },
+    "referenceSet": {
+      "$ref": "cmolitor.test-annotations.referenceSet"
+    },
+    "resourceType": {
+      "$ref": "cmolitor.test-annotations.resourceType"
+    },
+    "specimenID": {
+      "$ref": "cmolitor.test-annotations.specimenID"
+    },
+    "study": {
+      "$ref": "cmolitor.test-annotations.study"
+    },
+    "terminalDifferentiationPoint": {
+      "$ref": "cmolitor.test-annotations.terminalDifferentiationPoint"
+    },
+    "tissue": {
+      "$ref": "cmolitor.test-annotations.tissue"
+    }
+  }
+}
