@@ -1,0 +1,7 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "PCR Cycles",
+  "$id": "cmolitor.test-annotations.pcrCycles",
+  "type": "integer",
+  "description": "Number of PCR cycles to amplify transposased DNA fragments"
+}

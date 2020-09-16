@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ATACSeq Assay Validation Schema",
+  "$id":"cmolitor.test-assayValidation.assayATACSeqNoInt",
+  "description": "Validates PsychENCODE ATACSeq assay metadata",
+  "allOf": [
+    {
+      "$ref": "cmolitor.test-assayValidation.baseAssayNoInt"
+    }
+  ],
+  "properties": {
+    "isStranded": {
+      "$ref": "cmolitor.test-annotations.isStranded"
+    },
+    "libraryBatch": {
+      "$ref": "cmolitor.test-annotations.libraryBatch"
+    },
+    "libraryID": {
+      "$ref": "cmolitor.test-annotations.libraryID"
+    },
+    "libraryPreparationMethod": {
+      "$ref": "cmolitor.test-annotations.libraryPreparationMethod"
+    },
+    "meanCoverage": {
+      "$ref": "cmolitor.test-annotations.meanCoverage"
+    },
+    "meanGCContent": {
+      "$ref": "cmolitor.test-annotations.meanGCContent"
+    },
+    "readLength": {
+      "$ref": "cmolitor.test-annotations.readLength"
+    },
+    "readStrandOrigin": {
+      "$ref": "cmolitor.test-annotations.readStrandOrigin"
+    },
+    "runType": {
+      "$ref": "cmolitor.test-annotations.runType"
+    },
+    "sequencingBatch": {
+      "$ref": "cmolitor.test-annotations.sequencingBatch"
+    },
+    "transposaseBatch": {
+      "$ref": "cmolitor.test-annotations.transposaseBatch"
+    }
+  }
+}

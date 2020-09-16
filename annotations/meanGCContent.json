@@ -1,0 +1,8 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "Mean GC Content",
+  "$id": "cmolitor.test-annotations.meanGCContent",
+  "type": "number",
+  "exclusiveMinimum": 0,
+  "description": "Mean GC content per sample"
+}

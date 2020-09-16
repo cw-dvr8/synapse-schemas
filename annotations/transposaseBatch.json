@@ -1,0 +1,7 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "Transposase Batch",
+  "$id": "cmolitor.test-annotations.transposaseBatch",
+  "type": "string",
+  "description": "Transposition reaction batch"
+}
