@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "Assay Target",
+  "$id": "cmolitor.test-annotations.assayTarget",
+  "type": "string",
+  "description": "Assay Target",
+  "enum": [
+    "CTCF",
+    "H3K27ac",
+    "H3K27me3",
+    "H3K36me3",
+    "H3K4me1",
+    "H3K4me3",
+    "H3K9ac",
+    "H3K9me3",
+    "input",
+    "REST"
+  ]
+}

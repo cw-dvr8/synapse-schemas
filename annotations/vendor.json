@@ -1,0 +1,7 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "Vendor",
+  "$id": "cmolitor.test-annotations.vendor",
+  "type": "string",
+  "description": "Commercial or institutional source of a component used in an assay"
+}

@@ -1,0 +1,61 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ChIPSeq Assay Validation Schema",
+  "$id":"cmolitor.test-assayValidation.assayChIPSeq",
+  "description": "Validates PsychENCODE ChIPSeq assay metadata",
+  "allOf": [
+    {
+      "$ref": "cmolitor.test-assayValidation.baseAssay"
+    }
+  ],
+  "properties": {
+    "antibody": {
+      "$ref": "cmolitor.test-annotations.antibody"
+    },
+    "antibodyAmount": {
+      "$ref": "cmolitor.test-annotations.antibodyAmount"
+    },
+    "assayTarget": {
+      "$ref": "cmolitor.test-annotations.assayTarget"
+    },
+    "catalogNumber": {
+      "$ref": "cmolitor.test-annotations.catalogNumber"
+    },
+    "chromatinAmount": {
+      "$ref": "cmolitor.test-annotations.chromatinAmount"
+    },
+    "isStranded": {
+      "$ref": "cmolitor.test-annotations.isStranded"
+    },
+    "libraryBatch": {
+      "$ref": "cmolitor.test-annotations.libraryBatch"
+    },
+    "libraryID": {
+      "$ref": "cmolitor.test-annotations.libraryID"
+    },
+    "libraryPreparationMethod": {
+      "$ref": "cmolitor.test-annotations.libraryPreparationMethod"
+    },
+    "lotNumber": {
+      "$ref": "cmolitor.test-annotations.lotNumber"
+    },
+    "readLength": {
+      "$ref": "cmolitor.test-annotations.readLength"
+    },
+    "readStrandOrigin": {
+      "$ref": "cmolitor.test-annotations.readStrandOrigin"
+    },
+    "runType": {
+      "$ref": "cmolitor.test-annotations.runType"
+    },
+    "sequencingBatch": {
+      "$ref": "cmolitor.test-annotations.sequencingBatch"
+    },
+    "totalReads": {
+      "$ref": "cmolitor.test-annotations.totalReads"
+    },
+    "vendor": {
+      "$ref": "cmolitor.test-annotations.vendor"
+    }
+  }
+}

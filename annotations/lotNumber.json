@@ -1,0 +1,7 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "Lot Number",
+  "$id": "cmolitor.test-annotations.lotNumber",
+  "type": "string",
+  "description": "A distinctive alpha-numeric identification code assigned by the manufacturer or distributor to a specific quantity of manufactured material or product within a batch"
+}
