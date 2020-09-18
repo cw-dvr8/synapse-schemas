@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "ChIPSeq Assay Validation Schema",
-  "$id":"cmolitor.test-assayValidation.assayChIPSeq",
+  "$id":"cmolitor.test-assayValidation.assayChIPSeqNoInt",
   "description": "Validates PsychENCODE ChIPSeq assay metadata",
   "allOf": [
     {
