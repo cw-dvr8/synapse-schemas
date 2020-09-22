@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "HI-C Assay Validation Schema",
+  "$id":"cmolitor.test-assayValidation.assayHICNoInt",
+  "description": "Validates PsychENCODE Hi-C assay metadata",
+  "allOf": [
+    {
+      "$ref": "cmolitor.test-assayValidation.baseAssayNoInt"
+    }
+  ],
+  "properties": {
+    "libraryBatch": {
+      "$ref": "cmolitor.test-annotations.libraryBatch"
+    },
+    "libraryID": {
+      "$ref": "cmolitor.test-annotations.libraryID"
+    },
+    "libraryPrep": {
+      "$ref": "cmolitor.test-annotations.libraryPrep"
+    },
+    "libraryPreparationMethod": {
+      "$ref": "cmolitor.test-annotations.libraryPreparationMethod"
+    },
+    "readLength": {
+      "$ref": "cmolitor.test-annotations.readLength"
+    },
+    "runType": {
+      "$ref": "cmolitor.test-annotations.runType"
+    },
+    "sequencingBatch": {
+      "$ref": "cmolitor.test-annotations.sequencingBatch"
+    },
+    "totalReads": {
+      "$ref": "cmolitor.test-annotations.totalReads"
+    },
+    "validHiCContacts": {
+      "$ref": "cmolitor.test-annotations.validHiCContacts"
+    }
+  }
+}
