@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SNP Array Assay Validation Schema",
+  "$id":"cmolitor.test-assayValidation.assaysnpArray",
+  "description": "Validates PsychENCODE SNP Array assay metadata",
+  "allOf": [
+    {
+      "$ref": "cmolitor.test-assayValidation.baseAssay"
+    }
+  ],
+  "properties": {
+    "260/230": {
+      "$ref": "cmolitor.test-annotations.qc260230"
+    },
+    "260/280": {
+      "$ref": "cmolitor.test-annotations.qc260280"
+    },
+    "arrayBatch": {
+      "$ref": "cmolitor.test-annotations.arrayBatch"
+    },
+    "dnaBatch": {
+      "$ref": "cmolitor.test-annotations.dnaBatch"
+    },
+    "GQN": {
+      "$ref": "cmolitor.test-annotations.GQN"
+    }
+  }
+}

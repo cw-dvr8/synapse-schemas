@@ -1,0 +1,7 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "GQN",
+  "$id": "cmolitor.test-annotations.GQN",
+  "type": "number",
+  "description": "Illumina gDNA quality score"
+}
