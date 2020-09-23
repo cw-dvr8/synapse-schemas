@@ -5,6 +5,7 @@
   "type": "string",
   "description": "Grant number the data is being submitted for.",
   "enum": [
+    "R01MH094714",
     "R01MH109677",
     "R01MH109715",
     "R01MH110472",
