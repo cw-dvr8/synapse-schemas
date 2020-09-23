@@ -6,6 +6,7 @@
   "description": "Grant number the data is being submitted for.",
   "enum": [
     "R01MH094714",
+    "R01MH105898",
     "R01MH109677",
     "R01MH109715",
     "R01MH110472",
@@ -22,7 +23,6 @@
     "R01MH117293",
     "R21MH105853",
     "R21MH105881",
-    "R21MH105898",
     "R56MH114899",
     "R56MH114901",
     "R56MH114911",
