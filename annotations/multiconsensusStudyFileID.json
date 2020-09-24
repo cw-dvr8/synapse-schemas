@@ -1,0 +1,7 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "multiconsensusStudyFileID",
+  "$id": "cmolitor.test-annotations.multiconsensusStudyFileID",
+  "type": "string",
+  "description": "F-number assigned by Termo Proteome Discoverer software to different batches (plexes) of RAW (direct Thermo mass spectrometer output) files"
+}

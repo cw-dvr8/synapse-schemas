@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "TMT Quantitation Assay Validation Schema",
+  "$id":"cmolitor.test-assayValidation.assayTMTquantitation",
+  "description": "Validates PsychENCODE TMT Quantitation assay metadata",
+  "allOf": [
+    {
+      "$ref": "cmolitor.test-assayValidation.baseAssay"
+    }
+  ],
+  "properties": {
+    "batch": {
+      "$ref": "cmolitor.test-annotations.batch"
+    },
+    "batchChannel": {
+      "$ref": "cmolitor.test-annotations.batchChannel"
+    },
+    "controlType": {
+      "$ref": "cmolitor.test-annotations.controlType"
+    },
+    "fragmentation": {
+      "$ref": "cmolitor.test-annotations.fragmentation"
+    },
+    "multiconsensusStudyFileID": {
+      "$ref": "cmolitor.test-annotations.multiconsensusStudyFileID"
+    },
+    "resolution": {
+      "$ref": "cmolitor.test-annotations.resolution"
+    },
+    "sampleID": {
+      "$ref": "cmolitor.test-annotations.sampleID"
+    },
+    "TMTType": {
+      "$ref": "cmolitor.test-annotations.TMTType"
+    }
+  }
+}
