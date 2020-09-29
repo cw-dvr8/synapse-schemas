@@ -13,6 +13,11 @@ syn.login(silent=True)
 
 # Get a list of schemas for the organization cmolitor.test.
 schema_list = syn.restPOST("/schema/list", json.dumps({"organizationName": "cmolitor.test"}))
+# If there is more than one page in the list, get the next page.
+schema_list2 = syn.restPOST("/schema/list", json.dumps({"organizationName": "cmolitor.test", "nextPageToken": schema_list['nextPageToken']}))
+
+# Deleting a schema.
+schema_delete = syn.restDELETE("/schema/type/registered/cmolitor.test-assayValidation.baseAssayNoInt")
 
 # Registering a schema in Synapse.
 ref_schema = json.load(open("assayrnaSeqNoInt.json", "r"))
