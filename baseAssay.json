@@ -73,6 +73,9 @@
     "resourceType": {
       "$ref": "cmolitor.test-annotations.resourceType"
     },
+    "species": {
+      "$ref": "cmolitor.test-annotations.species"
+    },
     "specimenID": {
       "$ref": "cmolitor.test-annotations.specimenID"
     },
