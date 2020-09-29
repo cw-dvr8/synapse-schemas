@@ -1,11 +1,11 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "ATACSeq Assay Validation Schema",
-  "$id":"cmolitor.test-assayValidation.assayATACSeqNoInt",
+  "$id":"cmolitor.test-assayValidation.assayATACSeq",
   "description": "Validates PsychENCODE ATACSeq assay metadata",
   "allOf": [
     {
-      "$ref": "cmolitor.test-assayValidation.baseAssayNoInt"
+      "$ref": "cmolitor.test-assayValidation.baseAssay"
     }
   ],
   "properties": {
