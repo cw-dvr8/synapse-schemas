@@ -3,5 +3,5 @@
   "title": "Number of Cells",
   "$id": "cmolitor.test-annotations.numberCells",
   "type": "integer",
-  "description": "QC metric"
+  "description": "Number of cells or nuclei sequenced"
 }
