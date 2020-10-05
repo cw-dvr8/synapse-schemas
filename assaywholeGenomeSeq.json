@@ -9,8 +9,17 @@
     }
   ],
   "properties": {
-    "libraryBatch": {
-      "$ref": "cmolitor.test-annotations.libraryBatch"
+    "260/230": {
+      "$ref": "cmolitor.test-annotations.qc260230"
+    },
+    "260/280": {
+      "$ref": "cmolitor.test-annotations.qc260280"
+    },
+    "dnaBatch": {
+      "$ref": "cmolitor.test-annotations.dnaBatch"
+    },
+    "GQN": {
+      "$ref": "cmolitor.test-annotations.GQN"
     },
     "libraryID": {
       "$ref": "cmolitor.test-annotations.libraryID"
@@ -21,14 +30,11 @@
     "libraryPreparationMethod": {
       "$ref": "cmolitor.test-annotations.libraryPreparationMethod"
     },
+    "numberCells": {
+      "$ref": "cmolitor.test-annotations.numberCells"
+    },
     "readLength": {
       "$ref": "cmolitor.test-annotations.readLength"
-    },
-    "RIN": {
-      "$ref": "cmolitor.test-annotations.RIN"
-    },
-    "rnaBatch": {
-      "$ref": "cmolitor.test-annotations.rnaBatch"
     },
     "runType": {
       "$ref": "cmolitor.test-annotations.runType"
