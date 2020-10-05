@@ -88,5 +88,16 @@
     "tissue": {
       "$ref": "cmolitor.test-annotations.tissue"
     }
-  }
+  },
+  "required": [
+    "assay",
+    "cellType",
+    "dataType",
+    "fileFormat",
+    "nucleicAcidSource",
+    "referenceSet",
+    "species",
+    "study",
+    "tissue"
+  ]
 }
