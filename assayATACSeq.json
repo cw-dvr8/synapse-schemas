@@ -45,16 +45,5 @@
     "transposaseBatch": {
       "$ref": "cmolitor.test-annotations.transposaseBatch"
     }
-  },
-  "required": [
-    "assay",
-    "cellType",
-    "dataType",
-    "fileFormat",
-    "nucleicAcidSource",
-    "referenceSet",
-    "species",
-    "study",
-    "tissue"
-  ]
+  }
 }
