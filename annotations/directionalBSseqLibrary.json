@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "Library Is Directional",
+  "$id": "cmolitor.test-annotations.directionalBSseqLibrary",
+  "type": "string",
+  "description": "Indicates whether or not the library is directional",
+  "enum": [
+    "FALSE",
+    "False",
+    "false",
+    "TRUE",
+    "True",
+    "true"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "gDNA Concentration",
+  "$id": "cmolitor.test-annotations.gDNAconc",
+  "type": "number",
+  "description": "gDNA Concentration in ng"
+}
