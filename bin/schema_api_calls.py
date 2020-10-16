@@ -12,7 +12,10 @@ syn = synapseclient.Synapse()
 syn.login(silent=True)
 
 # Get a list of organizations
-organization_list = syn.restPOST("/schema/organization/list", json.dumps({"body": ""})
+organization_list = syn.restPOST("/schema/organization/list", json.dumps({"body": ""}))
+
+# Register an organization in Synapse
+organization = syn.restPOST('/schema/organization', json.dumps({'organizationName': 'sage.annotations'}))
 
 # Get a list of schemas for the organization cmolitor.test.
 schema_list = syn.restPOST("/schema/list", json.dumps({"organizationName": "cmolitor.test"}))
