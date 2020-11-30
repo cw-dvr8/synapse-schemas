@@ -34,3 +34,17 @@ val_schema = syn.restGET("/schema/type/registered/cmolitor.test-assayValidation.
 
 # Get a dereferenced schema that has been registered in Synapse.
 val_schema = syn._waitForAsync("/schema/type/validation/async", {"$id": "cmolitor.test-assayValidation.assayrnaSeqNoInt"})
+
+# Get the ACL for an organization - need to get a list of organizations first in
+# order to get the organization ID (47, in this case)
+schema_acl = syn.restGet("/schema/organization/47/acl")
+
+# Modify the ACL for an organization - need to get a list of organizations first
+# in order to get the organization ID (47, in this case). Get the current ACL
+# as referenced above. Also have to get the Synapse ID of the person getting
+# added.
+new_access = {}
+new_access["principalId"] = 3368956
+new_access["accessType"] = ["DELETE","UPDATE","CHANGE_PERMISSIONS","CREATE","READ"]
+schema_acl["resourceAccess"].append(new_access)
+new_schema_acl = syn.restPUT("/schema/organization/47/acl", json.dumps(schema_acl))
