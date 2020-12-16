@@ -86,7 +86,7 @@
       "$ref": "cmolitor.test-annotations.terminalDifferentiationPoint"
     },
     "tissue": {
-      "$ref": "cmolitor.test-annotations.tissue"
+      "$ref": "sage.annotations-experimentalData.tissue"
     }
   },
   "required": [
